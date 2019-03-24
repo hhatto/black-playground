@@ -14,8 +14,8 @@ import Spinner from '../components/spinner';
 
 const Editor = dynamic(import('../components/editor'), { ssr: false });
 
-const STABLE_URL = 'https://1rctyledh3.execute-api.us-east-1.amazonaws.com/dev';
-const MASTER_URL = 'https://gpv8wwc892.execute-api.us-east-1.amazonaws.com/dev';
+const STABLE_URL = 'https://p7klwr538g.execute-api.us-east-1.amazonaws.com/dev';
+const MASTER_URL = 'https://p7klwr538g.execute-api.us-east-1.amazonaws.com/dev';
 
 async function getVersion(url) {
   let res = await (await fetch(`${url}/version`)).json();
